@@ -1,14 +1,12 @@
-const express = require("express")
+const express = require("express");
 
 const app = express();
 
-app.get('/api/shit', (req,res)=>{
-    const shit = [
-        {Name: "Eli", Occupation: "Spraying hose pee"}
-    ]
-    res.json(shit);
-})
+app.get("/api/test", (req, res) => {
+  const test = [{ Name: "Eli", Occupation: "Eating Birthday Cake" }];
+  res.json(test);
+});
 
 const port = 5000;
 
-app.listen(port, ()=>console.log(`Listening on port ${port}`))
+app.listen(port, () => console.log(`Listening on port ${port}`));
