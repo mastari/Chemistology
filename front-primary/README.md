@@ -1,0 +1,2 @@
+# Lightweight-React
+Avoid the BS of setting up webpack and babel. Active port is 6789, feel free change configuration to your liking. Just make sure you do a npm install before use! Get to coding already!

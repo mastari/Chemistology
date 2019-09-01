@@ -1,0 +1,42 @@
+{
+  "name": "lightweight-react",
+  "version": "1.0.0",
+  "description": "Lightweight React Boilerplate",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/preset-react"
+    ]
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mastari/Lightweight-React.git"
+  },
+  "author": "mastari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mastari/Lightweight-React/issues"
+  },
+  "homepage": "https://github.com/mastari/Lightweight-React#readme",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.0.7",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
