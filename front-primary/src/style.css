@@ -1,0 +1,17 @@
+.navbar {
+    padding-left: 0px;
+}
+.navbar-brand {
+    margin-left: 10%;
+    padding-left: -8px;
+}
+
+.app-content-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+}
+
+.nav-item {
+    padding-left: 18px;
+}

@@ -1,5 +1,6 @@
 import React from "react"
 import ReactDOM from 'react-dom'
-import App from './components/App'
+import AppRouter from "./AppRouter";
+import './style.css'
 
-ReactDOM.render(<App/>, document.getElementById('app'));
+ReactDOM.render(<AppRouter/>, document.getElementById('app'));
