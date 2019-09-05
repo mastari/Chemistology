@@ -1,17 +1,45 @@
-.navbar {
-    padding-left: 0px;
-}
-.navbar-brand {
-    margin-left: 10%;
-    padding-left: -8px;
-}
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Crimson+Text|Karla|Manjari&display=swap");
 
-.app-content-container {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 50px;
+.navbar-brand {
+  font-size: 25px;
+  font-family: Manjari;
 }
 
 .nav-item {
-    padding-left: 18px;
+  font-size: 20px;
+  margin-top: -7px;
+  font-family: Karla;
+}
+.app-brand-centered {
+  font-size: 27px;
+  text-align: center;
+  font-family: Manjari;
+  color: black;
+  margin-top: 23px;
+}
+.app-brand-centered a:visited {
+  color: black;
+}
+
+/* @media only screen and (max-width: 767px) {
+  .app-brand-centered {
+    background-color: lightblue;
+  }
+} */
+
+.frontpage-video-banner {
+  padding: 25px;
+}
+
+.frontpage-info-banner {
+  margin-bottom: 38px;
+  margin-top: 38px;
+  font-family: "Karla", sans-serif;
+}
+
+.app-content-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  font-family: "Karla", sans-serif;
 }
