@@ -24,7 +24,7 @@ export default class NavbarPrimary extends Component {
       console.log("hey");
       return (
         <div className="app-brand-centered">
-          <a href="#">Chemistology</a>
+          <a href="#" className="app-brand-centered">Chemistology</a>
         </div>
       );
     }
@@ -33,13 +33,13 @@ export default class NavbarPrimary extends Component {
   render() {
     return (
       <div>
-        <div>{this.shouldRenderBrand()}</div>
-        <nav class="navbar navbar-expand-md navbar-light bg-faded">
-          <a class="navbar-brand d-md-none" href="#">
+        {this.shouldRenderBrand()}
+        <nav className="navbar navbar-expand-md navbar-light bg-faded">
+          <a className="navbar-brand d-md-none" href="#">
             Chemistology
           </a>
           <button
-            class="navbar-toggler ml-auto"
+            className="navbar-toggler ml-auto"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNavAltMarkup"
@@ -47,26 +47,23 @@ export default class NavbarPrimary extends Component {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="d-md-flex d-block w-100">
+          <div className="d-md-flex d-block w-100">
             <div
-              class="collapse navbar-collapse mx-auto w-auto justify-content-center"
+              className="collapse navbar-collapse mx-auto w-auto justify-content-center"
               id="navbarNavAltMarkup"
             >
-              <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">
-                  Home <span class="sr-only">(current)</span>
+              <div className="navbar-nav">
+                <a className="nav-item active" href="#">
+                  Home <span className="sr-only">(current)</span>
                 </a>
-                <a class="nav-item nav-link" href="#">
+                <a className="nav-item" href="#">
                   Features
                 </a>
 
-                <a class="nav-item nav-link" href="#">
+                <a className="nav-item" href="#">
                   Pricing
-                </a>
-                <a class="nav-item nav-link disabled" href="#">
-                  Disabled
                 </a>
               </div>
             </div>

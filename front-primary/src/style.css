@@ -3,22 +3,44 @@
 .navbar-brand {
   font-size: 25px;
   font-family: Manjari;
+  color: red;
+  text-decoration: none;
+}
+.navbar-brand:visited {
+  font-size: 25px;
+  font-family: Manjari;
+  color: red;
+  text-decoration: none;
+} 
+.navbar-brand:hover {
+  font-size: 25px;
+  font-family: Manjari;
+  color: red;
+  text-decoration: none;
 }
 
-.nav-item {
-  font-size: 20px;
-  margin-top: -7px;
-  font-family: Karla;
-}
-.app-brand-centered {
+
+.app-brand-centered, .app-brand-centered:visited, .app-brand-centered:hover {
   font-size: 27px;
   text-align: center;
   font-family: Manjari;
-  color: black;
+  color: red;
   margin-top: 23px;
+  text-decoration: none;
+  
 }
-.app-brand-centered a:visited {
-  color: black;
+.nav-item, .nav-item:visited {
+  font-size: 20px;
+  margin-top: -7px;
+  font-family: Karla;
+  color: #4e4e4e;
+  padding:12px;
+  padding-top: 0px;
+  text-decoration: none;
+}
+.nav-item:hover { 
+color:rgb(41, 41, 41);
+text-decoration: none;
 }
 
 /* @media only screen and (max-width: 767px) {
@@ -38,8 +60,8 @@
 }
 
 .app-content-container {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 30px;
+  margin: auto;
+  width:1920px;
+  display: inline-flexbox;
   font-family: "Karla", sans-serif;
 }
