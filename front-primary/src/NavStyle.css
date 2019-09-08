@@ -3,19 +3,19 @@
 .navbar-brand {
   font-size: 25px;
   font-family: Manjari;
-  color: red;
+  color: blue;
   text-decoration: none;
 }
 .navbar-brand:visited {
   font-size: 25px;
   font-family: Manjari;
-  color: red;
+  color: blue;
   text-decoration: none;
 } 
 .navbar-brand:hover {
   font-size: 25px;
   font-family: Manjari;
-  color: red;
+  color: blue;
   text-decoration: none;
 }
 
@@ -24,7 +24,7 @@
   font-size: 27px;
   text-align: center;
   font-family: Manjari;
-  color: red;
+  color: #2a3dbb;
   margin-top: 23px;
   text-decoration: none;
   
@@ -59,9 +59,7 @@ text-decoration: none;
   font-family: "Karla", sans-serif;
 }
 
-.app-content-container {
-  margin: auto;
-  width:1920px;
-  display: inline-flexbox;
-  font-family: "Karla", sans-serif;
+
+a.active {
+  color:black;
 }

@@ -39,9 +39,9 @@ build/Release
 
 # Dependency directories
 front-primary/node_modules/
-jspm_packages/
 itteration-old/client/node_modules/
 itteration-old/node_modules/
+jspm_packages/
 
 # TypeScript v1 declaration files
 typings/

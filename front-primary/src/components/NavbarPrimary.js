@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink, Link } from 'react-router-dom'
 
 export default class NavbarPrimary extends Component {
   state = {
@@ -24,7 +25,7 @@ export default class NavbarPrimary extends Component {
       console.log("hey");
       return (
         <div className="app-brand-centered">
-          <a href="#" className="app-brand-centered">Chemistology</a>
+          <Link className="app-brand-centered" to='/'>Chemistology</Link>
         </div>
       );
     }
@@ -55,16 +56,15 @@ export default class NavbarPrimary extends Component {
               id="navbarNavAltMarkup"
             >
               <div className="navbar-nav">
-                <a className="nav-item active" href="#">
-                  Home <span className="sr-only">(current)</span>
-                </a>
-                <a className="nav-item" href="#">
+                <NavLink className="nav-item" to="/">
+                  Home
+                </NavLink>
+                <NavLink className="nav-item" to="/features">
                   Features
-                </a>
-
-                <a className="nav-item" href="#">
+                </NavLink>
+                <NavLink className="nav-item" to="/pricing">
                   Pricing
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
